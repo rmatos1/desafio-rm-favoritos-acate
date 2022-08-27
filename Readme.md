@@ -1,5 +1,5 @@
 # desafio-rm-favoritos-acate
-Desenvolvido com:
+Desenvolvido utilizando:
 
 - Expo 
 - TypeScript 
