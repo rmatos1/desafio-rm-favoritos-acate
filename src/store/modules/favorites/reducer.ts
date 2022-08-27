@@ -3,7 +3,7 @@ import {
     PayloadAction
 } from '@reduxjs/toolkit';
 
-import { IFavorites, ICharacter, IFavoritesState } from '../../../types';
+import { IFavorites, ICharacter } from '../../../types';
 
 const initialState = {
     favorites: []
@@ -24,6 +24,6 @@ const FavoritesReducer = createSlice({
 
 export const { addFavorite, removeFavorite } = FavoritesReducer.actions;
 
-export const FavoritesReducerData = (state: IFavoritesState) => state.favorites;
+export const FavoritesReducerData = (state: IFavorites) => state.favorites;
 
 export default FavoritesReducer.reducer;

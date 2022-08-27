@@ -39,7 +39,9 @@ const Card = (props: any) => {
                     onPress={() => manageFavorite(id)}
                 >
                     {
-                        favorites.includes(id)? <Image source={require("../../../assets/icons/heart-full.png")} style={styles.icon} /> : <Image source={require("../../../assets/icons/heart-outline.png")} style={styles.icon} />
+                        favorites.includes(id)? 
+                            <Image source={require("../../../assets/icons/heart-full.png")} style={styles.icon} /> : 
+                            <Image source={require("../../../assets/icons/heart-outline.png")} style={styles.icon} />
                     }
                     
                 </TouchableOpacity>
