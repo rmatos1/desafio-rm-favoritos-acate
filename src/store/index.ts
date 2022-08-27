@@ -1,6 +1,4 @@
-import {
-    configureStore
-} from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
 
 import FavoritesReducer from './modules/favorites/reducer';
 
